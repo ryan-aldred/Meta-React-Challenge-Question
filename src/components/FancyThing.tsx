@@ -13,7 +13,6 @@ export default function FancyThing({ list }: Props) {
 
   const handleSubmit = (evt: FormEvent) => {
     evt.preventDefault();
-    console.log("handle submit", evt);
 
     // todo better ts validation
     const formData = new FormData(evt.target as HTMLFormElement);

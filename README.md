@@ -1,4 +1,4 @@
-My approach to the challenge proposed in
+My approach to the challenge proposed in this video, before I watched their solution
 
 - https://www.youtube.com/watch?v=pOGB0u7qI2M
 
