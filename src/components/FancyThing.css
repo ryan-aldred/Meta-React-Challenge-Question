@@ -1,0 +1,13 @@
+.container {
+  display: flex;
+  gap: 20px;
+}
+
+.btn-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.btn-container > *:not(:last-child) {
+  margin-bottom: 10px;
+}
