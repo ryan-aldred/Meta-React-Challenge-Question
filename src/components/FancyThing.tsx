@@ -20,9 +20,8 @@ export default function FancyThing({ list }: Props) {
 
     if (!side || typeof side !== "string") throw new Error("Invalid side");
 
-    const moveList = [...formData.keys()].filter(
-      (key: string) => key !== "side"
-    );
+    formData.delete("side");
+    const moveList = [...formData.keys()];
 
     const currentSideList = side === Side.Left ? rightList : leftList;
     const setCurrentSideList = side === Side.Left ? setRightList : setLeftList;
